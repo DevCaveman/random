@@ -1,0 +1,4 @@
+http_server:
+  image: ubuntu/apache
+  ports: 
+    - 80:80
