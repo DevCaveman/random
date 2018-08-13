@@ -1,7 +1,6 @@
-"""
-    Classe responsável pela escrita e leitura do Arquivo Json
-que contém os dados das contas.
-"""
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import json
 
 class Arquivo:
