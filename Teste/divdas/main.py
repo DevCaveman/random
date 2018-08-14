@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from Classes.arquivo import Arquivo
+import sys
+sys.path.append('Classes')
+
+from arquivo import Arquivo
 
 conta = Arquivo.make_contas()
 dicionario = { 'penis': 'pequeno' }
